@@ -3,39 +3,82 @@
     max-width: 700px;
     margin: 0 auto;
     border: 1px solid black;
-    border-radius: 5px;
     padding: 10px;
     position: relative;
-  }
-  .container:nth-child(1){
-height: auto;
+    color: white;
+    background-color: rgb(121, 121, 121);
+    justify-content: space-between;
+    align-items: baseline;
+}
 
-  }
-  .naosei{
+.facebook{
     display: flex;
-    gap: 40px;
-  }
- .botaox{
-    position: absolute;
-    left: 700px;
-    top: 0px    
+    align-items: baseline;
+    gap: 10px;    
+}
+.facebook button{
+    height: 40px;
+    border-radius: 50px;
+   
     
- }
- .fechar{
+}
 
-    border-radius: 10px;
-    font-weight: bold;
+.mensagem{
+    border-radius: 50px;
+fill: white;
+background-color: rgb(121, 121, 121);
 
- }
- .fechar:hover, .fechar:focus{
+border: 0px;
+    padding: 0px;
 
-    transition: all 0.1s ease-in-out;
-    color: red;
- }
+}
+.sino{
+    border-radius: 50px;
+    fill: white;
+    background-color: rgb(121, 121, 121);
+    border: 0px;
+    padding: 0px;
 
-  .conteudo {
+}
+.lupa{
+    border-radius: 50px;
+    fill: white;
+    background-color: rgb(121, 121, 121);
+    border: 0px;
+    padding: 0px;
 
+}
+
+
+.foto{
+    background-image: url(https://i.pinimg.com/originals/f1/0f/f7/f10ff70a7155e5ab666bcdd1b45b726d.jpg);
+    clip-path: circle(50%);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
+
+.container2 {
+    position: relative;
+    width: fit-content;
     display: flex;
-   justify-content: space-between;
+    gap: 10px;
 
-  }
+}
+
+ .seta {
+    border-radius: 50px;
+    fill: white;
+    background-color: gray;
+    border: none;
+    padding: 0px;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    right: 0px;
+
+     
+}
+
